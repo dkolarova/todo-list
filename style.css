@@ -78,3 +78,25 @@ input{
   color: rgb(220, 129, 18);
   text-shadow: 1px 2px 1px rgb(255, 255, 255);
 }
+
+@media only screen 
+and (min-width: 200px)
+and (max-width: 600px){
+  .todo-1, .todo-2, .todo-3{
+    border: none;
+  }
+
+  .final-todo-input{
+    display: flex;
+    margin-left: 23%;
+    width: 200px;
+  }
+
+  .final-todo-input-date{
+    margin-top: 5px;
+    width: 134px;
+  }
+  .add-final{
+   margin-left: 10px;
+  }
+}

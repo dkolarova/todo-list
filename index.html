@@ -27,9 +27,16 @@
 
       <div class="todo-3">
         <h2>Todo List</h2>
-        <input type="text" id="todo-final-version" />
-        <input type="date" id="todo-final-version-date" />
-        <button class="add-btn-final-version add" onclick="generateTodo()">
+        <input type="text" id="todo-final-version" class="final-todo-input" />
+        <input
+          type="date"
+          id="todo-final-version-date"
+          class="final-todo-input-date"
+        />
+        <button
+          class="add-btn-final-version add add-final"
+          onclick="generateTodo()"
+        >
           Add
         </button>
         <div class="js-todo-list-final todo-grid"></div>
